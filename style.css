@@ -1,0 +1,99 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.navBar a {
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+.jumbotron {
+    background-image: url(img/img-mission-background.jpg);
+    height: 700px;
+    max-width: 1200px;
+    position: relative;
+    top: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+}
+
+.t-selection {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.t-box img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.t-box h4 {
+    margin: 0 0 10px 0;
+}
+
+.locations {
+    background-image: url(img/img-locations-background.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations h2 {
+    margin: 0;
+}
+
+.loc-container {
+    display: flex;
+    justify-content: center;
+}
+
+.loc-box {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+}
+
+.loc-box a {
+    margin: 0 0 30px 0;
+}
+
+.footer h5 {
+    float: left;
+    margin: 20px;
+}
