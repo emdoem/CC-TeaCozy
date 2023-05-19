@@ -7,19 +7,19 @@ html {
     text-align: center;
     display: flex;
     justify-content: center;
-    max-width: 1300px;
 }
 
 .header {
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     background-color: black;
-    width: 100%;
     height: 69px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 10;
+    flex-basis: 1300px;
 }
 
 .logo {
@@ -34,10 +34,10 @@ html {
 
 .jumbotron {
     background-image: url(img/img-mission-background.jpg);
+    background-position: center;
     height: 700px;
-    max-width: 1200px;
+    flex-basis: 1200px;
     position: relative;
-    top: 69px;
     display: flex;
     align-items: center;
 }
@@ -45,6 +45,10 @@ html {
 .mission {
     background-color: black;
     width: 100%;
+}
+
+.t-of-the-month {
+    margin: 50px 0;
 }
 
 .t-selection {
@@ -66,10 +70,11 @@ html {
 
 .locations {
     background-image: url(img/img-locations-background.jpg);
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
 }
 
 .locations h2 {
@@ -79,6 +84,7 @@ html {
 .loc-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .loc-box {
