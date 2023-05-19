@@ -12,6 +12,7 @@ html {
 .header {
     overflow: hidden;
     position: sticky;
+    top: 0;
     background-color: black;
     height: 69px;
     width: 100%;
